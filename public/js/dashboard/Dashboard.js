@@ -5,7 +5,7 @@ $(document).ready(function () {
             if (NOP_VIEWER === null || NOP_VIEWER === undefined) return;
             new Dashboard(NOP_VIEWER, [
                 new BarChart('Category'),
-                new PieChart('Manufacturer')
+                new PieChart('Material')
             ])
         }
     });
